@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.*;
 
 //@Controller
 @RestController
-@EnableAutoConfiguration
+//@EnableAutoConfiguration
 public class SampleController {
 
     @RequestMapping("/")
@@ -22,7 +22,7 @@ public class SampleController {
         return "Hello World!";
     }
 
-    public static void main(String[] args) throws Exception {
+    /*public static void main(String[] args) throws Exception {
         SpringApplication.run(SampleController.class, args);
-    }
+    }*/
 }
