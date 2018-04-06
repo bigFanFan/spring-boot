@@ -1,6 +1,6 @@
 package com.hufan.controller;
 
-import com.hufan.com.hufan.exception.BusinessException;
+import com.hufan.exception.BusinessException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
