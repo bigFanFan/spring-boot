@@ -1,9 +1,6 @@
 package com.hufan.controller;
 
-import com.hufan.com.hufan.exception.BusinessException;
-import org.springframework.boot.*;
-import org.springframework.boot.autoconfigure.*;
-import org.springframework.stereotype.*;
+import com.hufan.exception.BusinessException;
 import org.springframework.web.bind.annotation.*;
 
 /**
