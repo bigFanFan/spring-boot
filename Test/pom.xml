@@ -14,10 +14,22 @@
         <version>2.0.0.RELEASE</version>
     </parent>
     <dependencies>
-        <!--如果不是web项目，可以不用-->
+        <!-- web支持: 1、web mvc; 2、restful; 3、jackjson支持; 4、aop ........ -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+
+        <!-- tomcat 的支持.-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-tomcat</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.tomcat.embed</groupId>
+            <artifactId>tomcat-embed-jasper</artifactId>
+        </dependency>
+
     </dependencies>
 </project>
