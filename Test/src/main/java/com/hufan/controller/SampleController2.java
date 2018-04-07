@@ -15,10 +15,9 @@ import org.springframework.web.bind.annotation.*;
 //@EnableAutoConfiguration
 public class SampleController2 {
 
-    @RequestMapping("index")
+    @RequestMapping("/index")
     public String index() {
         return "index";
     }
-
 
 }
