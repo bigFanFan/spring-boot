@@ -1,4 +1,4 @@
-package com.hufan.com.hufan.exception;
+package com.hufan.exception;
 
 /**
  * Created by Hufan on 2018/4/5.
